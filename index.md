@@ -74,3 +74,6 @@ Layers are listed in order of precedence, from top to bottom.
 
 <img src="img\Network Settings.PNG" alt="Network Settings" style="zoom:100%;" />
 
+## Acknowledgement
+
+Our work was built based on AERO (https://github.com/slp-rl/aero). Thanks for their great work.
