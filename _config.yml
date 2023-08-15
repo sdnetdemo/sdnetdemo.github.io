@@ -1,5 +1,5 @@
 title: "SUPER DENOISE NET: SPEECH SUPER RESOLUTION WITH NOISE CANCELLATION IN LOW SAMPLING RATE NOISY ENVIRONMENTS"
-description: This is the demo page of SDNet.
+description: SDNet is a neural network that can remove background noise while extending the bandwidth of speech.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
