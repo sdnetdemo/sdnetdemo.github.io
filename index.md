@@ -34,7 +34,7 @@ In this part, we selected some old speech to repair their quality. Some samples 
 
 ### Sample 1
 
-"Science has profoundly altered the conditions of man's life both materially and in ways of the spirit as well." - J. Robert Oppenheimer
+" Science has profoundly altered the conditions of man's life both materially and in ways of the spirit as well. " - J. Robert Oppenheimer
 
 &emsp;&emsp;&emsp;&emsp;**Source**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Output**
 
@@ -46,7 +46,7 @@ Spectrogram:
 
 ### Sample 2
 
-"So first of all, let me assert my firm belief that the only thing we have to fear is fear itself." - Franklin D. Roosevelt
+" If someone, again who hadn't been here before, asked you ‘ Is it safe to come to Northern Ireland? ’ What would you say? " - From an old interview
 
 &emsp;&emsp;&emsp;&emsp;**Source**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Output**
 
@@ -54,11 +54,11 @@ Spectrogram:
 
 Spectrogram: 
 
-<img src="img\real_4.png" alt="real_4" style="zoom:50%;" /><img src="img\real_4_pr.png" alt="real_4_pr" style="zoom:50%;" />
+<img src="img\real_8.png" alt="real_8" style="zoom:50%;" /><img src="img\real_8_pr.png" alt="real_8_pr" style="zoom:50%;" />
 
 ### Sample 3
 
-"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too." - John F. Kennedy
+" Begin the day with Able Mabel. She'll wake you at your preset time. " - From an old TV advertisement
 
 &emsp;&emsp;&emsp;&emsp;**Source**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Output**
 
@@ -66,7 +66,7 @@ Spectrogram:
 
 Spectrogram:
 
-<img src="img\real_5.png" alt="real_5" style="zoom: 33%;" /><img src="img\real_5_pr.png" alt="real_5_pr" style="zoom: 33%;" />
+<img src="img\real_9.png" alt="real_9" style="zoom: 50%;" /><img src="img\real_9_pr.png" alt="real_9_pr" style="zoom: 50%;" />
 
 ## Settings of Each Layer
 
