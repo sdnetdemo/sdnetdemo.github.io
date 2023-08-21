@@ -70,7 +70,7 @@ Spectrogram:
 
 ## Settings of Each Layer
 
-Layers are listed in order of precedence, from top to bottom.
+Layers are listed in order of precedence, from top to bottom. The last dimension may be different based on the duration of input speech.
 
 <img src="img\Network Settings.PNG" alt="Network Settings" style="zoom:100%;" />
 
