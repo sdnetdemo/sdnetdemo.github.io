@@ -4,29 +4,129 @@ layout: default
 
 # Demo of SDNet
 
+## Degradation of Previous SSR Model
+
+### Sample 1
+
+&emsp;&emsp;**WSRGlow(From Clean)**&emsp;&emsp;&emsp;**WSRGlow(From Noisy)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/WSRGlow_clean/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/WSRGlow_noisy/1.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;**NU-Wave 2(From Clean)**&emsp;&emsp;&emsp;**NU-Wave 2(From Noisy)**&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_clean/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_noisy/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/1.wav" type="audio/wav"></audio>
+
+### Sample 2
+
+&emsp;&emsp;**WSRGlow(From Clean)**&emsp;&emsp;&emsp;**WSRGlow(From Noisy)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/WSRGlow_clean/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/WSRGlow_noisy/10.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;**NU-Wave 2(From Clean)**&emsp;&emsp;&emsp;**NU-Wave 2(From Noisy)**&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_clean/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_noisy/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/10.wav" type="audio/wav"></audio>
+
 ## Test Set Samples
 
-&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+### Sample 1
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/1.wav" type="audio/wav"></audio>
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/2.wav" type="audio/wav"></audio>
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/1.wav" type="audio/wav"></audio>
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/3.wav" type="audio/wav"></audio>
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/4.wav" type="audio/wav"></audio>
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/1.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/1.wav" type="audio/wav"></audio>
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/5.wav" type="audio/wav"></audio>
+### Sample 2
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/6.wav" type="audio/wav"></audio>
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/7.wav" type="audio/wav"></audio>
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/2.wav" type="audio/wav"></audio>
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/8.wav" type="audio/wav"></audio>
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/9.wav" type="audio/wav"></audio>
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/2.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/2.wav" type="audio/wav"></audio>
 
-<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/10.wav" type="audio/wav"></audio>
+### Sample 3
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/3.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/3.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/3.wav" type="audio/wav"></audio>
+
+### Sample 4
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/4.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/4.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/4.wav" type="audio/wav"></audio>
+
+### Sample 5
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/5.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/5.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/5.wav" type="audio/wav"></audio>
+
+### Sample 6
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/6.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/6.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/6.wav" type="audio/wav"></audio>
+
+### Sample 7
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/7.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/7.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/7.wav" type="audio/wav"></audio>
+
+### Sample 8
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/8.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/8.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/8.wav" type="audio/wav"></audio>
+
+### Sample 9
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/9.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/9.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/9.wav" type="audio/wav"></audio>
+
+### Sample 10
+
+&emsp;&emsp;&emsp;&emsp;**Noisy(at 8kHz)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UNet + I-DTLN**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**VoiceFixer**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/noisy/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/UNet+I-DTLN/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/VoiceFixer/10.wav" type="audio/wav"></audio>
+
+&emsp;&emsp;&emsp;&emsp;**AERO(retrained)**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Ours**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Clean(Reference)**
+
+<audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/10.wav" type="audio/wav"></audio>
 
 ## Real World Samples
 
