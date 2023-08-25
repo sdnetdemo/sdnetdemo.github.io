@@ -4,7 +4,7 @@ layout: default
 
 # Demo of SDNet
 
-## Degradation of Previous SSR Model
+## 1. Degradation of Previous SSR Model
 
 ### Sample 1
 
@@ -26,7 +26,7 @@ layout: default
 
 <audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_clean/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/NU-Wave2_noisy/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/10.wav" type="audio/wav"></audio>
 
-## Test Set Samples
+## 2. Test Set Samples
 
 ### Sample 1
 
@@ -128,7 +128,7 @@ layout: default
 
 <audio controls="" style="width: 250px; height: 50px"><source src="data/predict/AERO/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/predict/ours/10.wav" type="audio/wav"></audio><audio controls="" style="width: 250px; height: 50px"><source src="data/clean/10.wav" type="audio/wav"></audio>
 
-## Real World Samples
+## 3. Real World Samples
 
 In this part, we selected some old speech to repair their quality. Some samples are below.
 
@@ -168,12 +168,12 @@ Spectrogram:
 
 <img src="img\real_9.png" alt="real_9" style="zoom: 50%;" /><img src="img\real_9_pr.png" alt="real_9_pr" style="zoom: 50%;" />
 
-## Settings of Each Layer
+## 4. Settings of Each Layer
 
 Layers are listed in order of precedence, from top to bottom. The last dimension may be different based on the duration of input speech.
 
 <img src="img\Network Settings.PNG" alt="Network Settings" style="zoom:100%;" />
 
-## Acknowledgement
+## 5. Acknowledgement
 
 Our work was built based on AERO (<https://github.com/slp-rl/aero>). Thanks for their great work.
