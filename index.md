@@ -105,9 +105,17 @@ Layers are listed in order of precedence, from top to bottom. The last dimension
 ## **4. Acknowledgement**
 
 Our work was built based on AERO (<https://github.com/slp-rl/aero>). 
+
 The following repositories also help us a lot.
-https://github.com/zkx06111/WSRGlow
-https://github.com/maum-ai/nuwave2
-https://github.com/haoheliu/voicefixer
-https://github.com/lhwcv/DTLN_pytorch
+
+<https://github.com/zkx06111/WSRGlow>
+
+<https://github.com/maum-ai/nuwave2>
+
+<https://github.com/haoheliu/voicefixer>
+
+<https://github.com/lhwcv/DTLN_pytorch>
+
+<https://github.com/ncarraz/AFILM>
+
 Thanks for all these great work.
