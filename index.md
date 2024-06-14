@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# **Demo of SDNet**
-
 ## **1. Test Set Samples**
 
 ### Sample 1
