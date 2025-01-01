@@ -96,13 +96,7 @@ Spectrogram:
 
 <img src="img\real_9.png" alt="real_9" style="zoom: 50%;" /><img src="img\real_9_pr.png" alt="real_9_pr" style="zoom: 50%;" />
 
-## **3. Settings of Each Layer**
-
-Layers are listed in order of precedence, from top to bottom. The last dimension and batchsize dimension may be different based on the duration of input speech and batchsize.
-
-<img src="img\Network Settings.PNG" alt="Network Settings" style="zoom:100%;" />
-
-## **4. Acknowledgement**
+## **3. Acknowledgement**
 
 Our work was built based on AERO (<https://github.com/slp-rl/aero>). 
 
